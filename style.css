@@ -1,0 +1,35 @@
+*{
+    padding:0px;
+    margin: 0px;
+    font-family:Georgia, serif;
+    color: #252525;
+}
+
+header{
+    background: #252525;
+    padding: 20px 0px;
+    color:#fff;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+nav  {
+    display: flex;
+}
+
+ul {
+    display: flex;
+}
+
+li{
+    padding: 10px;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 18px;
+}
