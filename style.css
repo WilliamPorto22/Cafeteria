@@ -299,3 +299,30 @@ input{
     cursor: pointer;
     color: white;
 }
+
+footer{
+    background-color: #878580;
+    padding: 40px 0 ;
+}
+
+.footer-container{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.footer-container::after, .footer-container::before{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+footer p{
+    float: left;
+    margin: 0 10px;
+    font-size: 20px;
+    line-height: 1.3em;
+}
+
+footer img{
+    float: right;
+}
