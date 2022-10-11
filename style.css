@@ -3,6 +3,7 @@
     margin: 0px;
     font-family:Georgia, serif;
     color: #252525;
+    box-sizing: border-box;
 }
 
 header{
@@ -238,4 +239,63 @@ h2.produtos-mineiro::before{
     border: 3px solid;
     color: #252525;
     padding: 10px 20px;
+}
+
+.assine{
+    background-color: #cbc7b6;
+    padding: 30px 0;
+}
+.assine-container{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.assine-container::after, .assine-container::before{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.assine-info{
+    width: 460px;
+    margin: 0 10px;
+    float: left;
+}
+
+.assine-info p{
+    font-size: 20x;
+    font-style: italic;
+}
+
+form{
+    width: 460px;
+    margin: 0 10px;
+    float: left;
+}
+
+form label{
+    display: none;
+}
+
+input{
+    width:294px;
+    border: 3px solid #252525;
+    background-color: none;
+    font-size: 20px;
+    font-style: italic;
+    font-family: Georgia, Serif;
+    padding: 10px;
+    float: left;
+    margin-right: 2px;
+}
+
+.assine button{
+    background-color: #000;
+    font-family: Georgia, Serif;
+    font-size: 20px;
+    width: 130px;
+    padding: 13px 0;
+    border: none;
+    cursor: pointer;
+    color: white;
 }
