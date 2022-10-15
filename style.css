@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 
-.header {
+header {
     background: #252525;
     padding: 20px 0px;
     color: #fff;
@@ -34,6 +34,7 @@ a {
     text-decoration: none;
     cursor: pointer;
     font-size: 18px;
+    list-style: none;
 }
 
 main {
@@ -321,8 +322,11 @@ input {
 }
 
 footer {
+    display: flex;
     background-color: #878580;
-    padding: 40px 0;
+    padding: 20px 0;
+    flex-direction: column;
+    align-items: center;
 }
 
 .footer-container {
@@ -340,6 +344,7 @@ footer {
 
 footer p {
     line-height: 22px;
+    font-size: 16px;
 }
 
 footer img {
@@ -379,25 +384,39 @@ footer img {
 }
 
 .flex-item-8 {
-	flex: 0 0 calc(66.666% - 20px);
-	max-width: calc(66.666% - 20px);
+    display: flex;
+    flex: 0 0 calc(66.666% - 20px);
+    max-width: calc(66.666% - 20px);
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.flex-item-8 h1::after{
+    background: #000;
 }
 
 .filtro {
-	background: #e7e4d8;
-	border: 3px solid #d6d3c8;
-	padding: 20px;
+    display: flex;
+    background: #e7e4d8;
+    border: 3px solid #d6d3c8;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* Menu Produtos */
 
-.header-informacoes {
+.header-informacoes  {
     display: flex;
-    font-size: -9px;
     background: #d6d3c8;
     padding: 5px 0;
     text-align: center;
     justify-content: center;
+}
+
+.header-informacoes p {
+    font-size: 13px;
 }
 
 .header-logo img {
@@ -406,11 +425,12 @@ footer img {
 }
 
 .header-menu {
-	border-top: 3px solid #d6d3c8;
-	border-bottom: 3px solid #d6d3c8;
-	text-align: center;
-	margin-bottom: 40px;
-	padding: 20px 0;
+    display: flex;
+    border-top: 3px solid #d6d3c8;
+    border-bottom: 3px solid #d6d3c8;
+    margin-bottom: 40px;
+    padding: 20px 0;
+    justify-content: center;
 }
 
 .header-menu li {
@@ -426,7 +446,7 @@ footer img {
 }
 
 .header-menu li a::before {
-	content: '•';
+	content: '';
 	padding-right: 10px;
 }
 
@@ -441,9 +461,13 @@ footer img {
 }
 
 .filtro ul {
-	border-top: 3px solid #c0beb4;
-	border-bottom: 3px solid #c0beb4;
-	padding: 10px 0;
+    display: flex;
+    border-top: 3px solid #c0beb4;
+    border-bottom: 3px solid #c0beb4;
+    padding: 10px 0;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
 }
 
 .filtro li {
@@ -460,6 +484,7 @@ footer img {
 	border: 3px solid #c0beb4;
 	float: right;
 	margin-top: 5px;
+    margin-left: 135px;
 }
 
 .sabor {
@@ -500,8 +525,8 @@ footer img {
 /*PRODUTOS*/
 
 .produtos h1 {
-	font-size: 3em;
-	font-weight: normal;
+    font-weight: normal;
+    color: black;
 }
 
 .produtos li img {
@@ -522,8 +547,8 @@ footer img {
 }
 
 .produtos li h2 {
-	font-size: 0.875em;
-	font-weight: normal;
+    font-size: 14px;
+    font-weight: bold;
 }
 
 @media (max-width: 940px)  {
@@ -586,7 +611,9 @@ footer img {
 
     footer p {
         line-height: 17px;
-        padding: 0px 60px;
+        padding: 0px 0px;
+        margin: 3px;
+        font-size: 13px;
     }
 
     footer img{
