@@ -30,10 +30,21 @@ li {
 }
 
 a {
-    color: #fff;
-    text-decoration: none;
+	text-decoration: none !important;
+	color: #fff !important;
     cursor: pointer;
     font-size: 18px;
+    list-style: none;
+}
+
+.flex{
+	display: flex !important;
+	margin-bottom: 0px !important;
+}
+
+li{
+	margin: 10px;
+    padding: 10px;
     list-style: none;
 }
 
