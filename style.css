@@ -8,7 +8,7 @@
 
 header {
     background: #252525;
-    padding: 20px 0px;
+    padding: 0px 0px;
     color: #fff;
     display: flex;
     align-content: center;
@@ -22,6 +22,10 @@ nav {
 
 ul {
     display: flex;
+}
+
+.ul {
+    display: block;
 }
 
 li {
@@ -112,6 +116,12 @@ p {
     display: flex;
 }
 
+.carrinho{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
 .adicionar-produtos {
     display: flex;
     background: #c17139;
@@ -144,7 +154,8 @@ p {
 
 .container-item img {
     display: block;
-    max-width: 100%;
+    height: 260px;
+    width: 350px;
 }
 
 .container-item h3 {
@@ -219,15 +230,16 @@ p {
 	position: absolute;
 	right: 20px;
 	top: 10px;
-	background: url('../img/edit.svg') no-repeat;
+	background: url('img/edit.svg') no-repeat;
 }
 
 .produtos-item2 a:hover {
-	background: url('../img/edit-hover.svg') no-repeat;
+	background: url('img/edit-hover.svg') no-repeat;
 }
 
 .produtos-item2 img {
-	align-self: flex-start;
+    width: 200px;
+    height: 190px;
 }
 
 .produtos-item2 ul {
@@ -293,7 +305,7 @@ h2.produtos-mineiro::before {
 }
 
 .produto-btn {
-    color: #252525;
+    color: #252525 !important;
     width: 180px;
     border: 3px solid;
     text-decoration: none;
@@ -510,6 +522,10 @@ footer img {
     background: #000;
 }
 
+.fixed-top {
+    padding: 0px!important;
+}
+
 .filtro {
     display: flex;
     background: #e7e4d8;
@@ -524,7 +540,7 @@ footer img {
 .header-informacoes  {
     display: flex;
     background: #d6d3c8;
-    padding: 5px 0;
+    padding: 8px 0;
     text-align: center;
     justify-content: center;
 }
@@ -534,8 +550,8 @@ footer img {
 }
 
 .header-logo img {
-	display: block;
-	margin: 40px auto;
+    display: block;
+    margin: 14px auto;
 }
 
 .header-menu {
