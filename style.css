@@ -550,6 +550,13 @@ footer img {
 }
 
 .header-logo img {
+    width: 180px;
+    display: block;
+    margin: 14px auto;
+}
+
+.header-logo2 img {
+    width: 350px;
     display: block;
     margin: 14px auto;
 }
