@@ -124,7 +124,7 @@ p {
     align-items: center;
 }
 
-.container {
+.container1 {
     max-width: 960px;
     margin: 0 auto;
     padding: 30px;
@@ -164,10 +164,9 @@ p {
     position: relative;
 }
 
-.container p {
+.container1 p {
     font-size: 22px;
     font-style: italic;
-    margin-top: 60px;
     padding: 33px;
 }
 
@@ -650,24 +649,24 @@ footer img {
 }
 
 .sabor-3 {
-	color: #492901;
-	box-shadow: 20px 0 0 0 currentColor,
-							40px 0 0 0 currentColor;
+	color: #011199;
+	box-shadow: 0px 0 0 0 currentColor,
+							0px 0 0 0 currentColor;
 }
 
 .sabor-4 {
-	color: #c17139;
+	color: #ece909;
 	box-shadow: 20px 0 0 0 currentColor,
-							40px 0 0 0 currentColor,
-							60px 0 0 0 currentColor;
+							20px 0 0 0 currentColor,
+							20px 0 0 0 currentColor;
 }
 
 .sabor-5 {
-	color: #d7a54d;
-	box-shadow: 20px 0 0 0 currentColor,
-							40px 0 0 0 currentColor,
-							60px 0 0 0 currentColor,
-							80px 0 0 0 currentColor;
+	color: #006e0f;
+	box-shadow: 00px 0 0 0 currentColor,
+							0px 0 0 0 currentColor,
+							20px 0 0 0 currentColor,
+							40px 0 0 0 currentColor;
 }
 
 /*PRODUTOS*/
@@ -695,8 +694,8 @@ footer img {
 }
 
 .produtos li h2 {
-    font-size: 14px;
-    font-weight: bold;
+    font-size: 12px;
+    margin: initial;
 }
 
 .produtos header {
@@ -767,7 +766,7 @@ footer img {
         width: 300px;
     }
 
-    .container p{
+    .container1 p{
         margin-top: 0px;
         font-size: 14px;
         max-width: 340px;
