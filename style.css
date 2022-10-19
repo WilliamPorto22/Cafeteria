@@ -124,17 +124,6 @@ p {
     align-items: center;
 }
 
-.adicionar-produtos {
-    display: flex;
-    background: #c17139;
-    font-size: 16px;
-    font-family: Courier, monospace;
-    text-transform: uppercase;
-    padding: 14px 14px;
-    border-radius: 4px;
-    width: fit-content;
-}
-
 .container {
     max-width: 960px;
     margin: 0 auto;
@@ -240,8 +229,8 @@ p {
 }
 
 .produtos-item2 img {
-    width: 200px;
-    height: 190px;
+    width: 310px;
+    height: 230px;
 }
 
 .produtos-item2 ul {
@@ -318,6 +307,18 @@ h2.produtos-mineiro::before {
     text-align: center;
     padding: 15px 0;
     margin: 5px auto 0 auto;
+}
+
+.produto-btn2 {
+    color: #252525 !important;
+    width: 290px;
+    border: 3px solid;
+    text-decoration: none;
+    display: block;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 15px 0;
 }
 
 .locais {
@@ -819,6 +820,10 @@ footer img {
         width: 137px;
         font-size: 14px;
         padding: 10px 0;
+    }
+
+    .produto-btn2 {
+        width: 180px;
     }
 }
 
