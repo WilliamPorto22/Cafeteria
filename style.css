@@ -738,6 +738,7 @@ footer img {
 		max-width: 300px;
 		flex-direction: column;
 	}
+
 	.flex-item-4, .flex-item-8 {
 		margin-left: 0px;
 		margin-right: 0px;
@@ -804,9 +805,6 @@ footer img {
 
     a {
         font-size: 12px;
-    }
-    a img{
-        width: 90px;
     }
 
     .assine {
