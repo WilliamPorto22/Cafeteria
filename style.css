@@ -212,21 +212,6 @@ p {
     display: flex;
 }
 
-.produtos-item2 a {
-    transition: 0.5s;
-    width: 148px;
-    height: 37px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #0dc10d;
-}
-
-.produtos-item2 a:hover {
-    width: 150px;
-    height: 39px;
-}
-
 .produtos-item2 img {
     width: 310px;
     height: 230px;
@@ -310,38 +295,53 @@ h2.produtos-mineiro::before {
 
 .produto-btn2 {
     color: #252525 !important;
-    width: 290px;
+    width: 260px;
     border: 3px solid;
-    text-decoration: none;
     display: block;
     font-weight: bold;
     text-transform: uppercase;
     text-align: center;
-    padding: 15px 0;
+    padding: 8px 0;
 }
 
 .produto-btn3 {
+    font-size: 14px;
     color: #252525 !important;
-    width: 290px;
-    border: 3px solid;
-    text-decoration: none;
-    display: block;
+    border: 2px solid;
+    border-radius: 5px;
     font-weight: bold;
     text-transform: uppercase;
-    text-align: center;
-    padding: 15px 0;
+    transition: 0.5s;
+    width: 108px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0dc10d;
+}
+
+.produto-btn3:hover{
+    color: #ced4da !important;
 }
 
 .produto-btn4 {
+    font-size: 14px;
     color: #252525 !important;
-    width: 290px;
-    border: 3px solid;
-    text-decoration: none;
-    display: block;
+    border: 2px solid;
+    border-radius: 5px;
     font-weight: bold;
     text-transform: uppercase;
-    text-align: center;
-    padding: 15px 0;
+    transition: 0.5s;
+    width: 108px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #c1220d;
+}
+
+.produto-btn4:hover{
+    color: #ced4da !important;
 }
 
 
@@ -494,6 +494,7 @@ footer img {
 }
 
 .flex2{
+    width: 330px;
     display: flex !important;
     margin-bottom: 0px !important;
     justify-content: space-around;
@@ -616,11 +617,11 @@ footer img {
 }
 
 .header-menu li a {
-	display: block;
-	padding: 5px 10px 5px 0;
-	text-decoration: none;
-	color: #252525;
-	font-size: 1.125em;
+    display: block;
+    padding: 5px 10px 5px 0;
+    text-decoration: none;
+    color: #0dc10d!important;
+    font-size: 25px !important;
 }
 
 .header-menu li a::before {
